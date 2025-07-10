@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karir - PT Mulia Industrindo, Tbk.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffffff, #e0f2f1);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header img {
+      height: 60px;
+    }
+    header h1 {
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #00695c;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    p, ul li {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    form label {
+      display: block;
+      margin-top: 16px;
+      font-weight: 600;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      background: #f7f7f7;
+      font-size: 14px;
+    }
+    form textarea {
+      resize: vertical;
+    }
+    form button {
+      margin-top: 30px;
+      background: #00796b;
+      color: white;
+      padding: 16px;
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    form button:hover {
+      background: #00695c;
+    }
+    .upload-btn {
+      display: inline-block;
+      background-color: #00796b;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-top: 6px;
+    }
+    .upload-btn:hover {
+      background-color: #00695c;
+    }
+    .hidden {
+      display: none;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      background: #004d40;
+      color: white;
+      font-size: 14px;
+    }
+
+    /* POPUP NOTIFIKASI */
+    .popup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    .popup-content {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      max-width: 90%;
+    }
+    .popup-content h2 {
+      color: #00796b;
+      margin-bottom: 10px;
+    }
+    .popup-content p {
+      font-size: 16px;
+      color: #444;
+    }
+    .popup-content button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #00796b;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .popup-content button:hover {
+      background-color: #004d40;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 22px;
+      }
+      .container {
+        margin: 20px;
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logomulia2.jpg" alt="Logo Mulia">
+    <h1>PT Mulia Industrindo Tbk.</h1>
+  </header>
+
+  <main class="container">
+    <h2>📢 Lowongan: Operator Produksi – Cikarang</h2>
+    <p>PT Mulia Industrindo Tbk. membuka lowongan untuk posisi Operator Produksi di Cikarang. Terbuka untuk lulusan SMK semua jurusan, diutamakan yang memiliki penglihatan baik dan mampu membedakan warna. Pengalaman minimal 2 tahun dan kemampuan Ms. Office menjadi nilai tambah. Bersedia bekerja sistem shift.</p>
+
+    <h2>Tugas & Tanggung Jawab</h2>
+    <ul>
+      <li>Mengoperasikan mesin & peralatan produksi.</li>
+      <li>Menjaga kualitas produk dan proses produksi.</li>
+      <li>Melakukan pemeliharaan ringan.</li>
+      <li>Melaporkan hasil & kendala produksi.</li>
+      <li>Menjaga kebersihan area kerja.</li>
+      <li>Mematuhi SOP perusahaan.</li>
+      <li>Bekerja sama dengan tim produksi.</li>
+    </ul>
+
+    <h2>Kualifikasi</h2>
+    <ul>
+      <li>SMK semua jurusan.</li>
+      <li>Penglihatan baik & bisa bedakan warna.</li>
+      <li>Pengalaman min. 2 tahun sebagai operator.</li>
+      <li>Ms. Office (nilai tambah).</li>
+      <li>Bersedia bekerja shift.</li>
+    </ul>
+
+    <h2>Informasi Tambahan</h2>
+    <ul>
+      <li>Proses seleksi online via website resmi HRIS Mulia.</li>
+      <li>Tahapan: Admin → Psikotes → Interview HR → Interview User → MCU → Offering → Onboarding.</li>
+      <li>Orientasi & pelatihan untuk karyawan baru.</li>
+      <li>Gratis tanpa biaya. Waspadai penipuan.</li>
+    </ul>
+
+    <h2>Formulir Lamaran</h2>
+    <form id="applyForm">
+      <label>Nama Lengkap</label>
+      <input type="text" required>
+
+      <label>Jenis Kelamin</label>
+      <select required>
+        <option value="">Pilih</option>
+        <option>Laki-laki</option>
+        <option>Perempuan</option>
+      </select>
+
+      <label>Tempat & Tanggal Lahir</label>
+      <input type="text" required>
+
+      <label>Alamat</label>
+      <textarea required></textarea>
+
+      <label>No. WhatsApp</label>
+      <input type="tel" required>
+
+      <label>Email</label>
+      <input type="email" required>
+
+      <label>Pendidikan Terakhir</label>
+      <select id="eduLevel" required>
+        <option value="">Pilih</option>
+        <option value="SMA">SMA</option>
+        <option value="SMK">SMK</option>
+        <option value="S1">S1</option>
+        <option value="S2">S2</option>
+      </select>
+
+      <div id="eduDetail" class="hidden">
+        <label>Nama Sekolah / Universitas</label>
+        <input type="text">
+        <label>Jurusan</label>
+        <input type="text">
+        <label>Upload Ijazah (.pdf)</label>
+        <input type="file" id="ijazahUpload" accept=".pdf" style="display:none;">
+        <label for="ijazahUpload" class="upload-btn">🎓 Upload Ijazah</label>
+        <span id="ijazahFileName" style="font-size:14px; display:block; margin-top:8px;"></span>
+      </div>
+
+      <label>Pengalaman Kerja</label>
+      <textarea></textarea>
+
+      <label>Upload CV (.pdf)</label>
+      <input type="file" id="cvUpload" accept=".pdf" required style="display:none;">
+      <label for="cvUpload" class="upload-btn">📎 Pilih CV Anda</label>
+      <span id="cvFileName" style="font-size:14px; display:block; margin-top:8px;"></span>
+
+      <label>Upload KTP (.jpg/.png)</label>
+      <input type="file" id="ktpUpload" accept=".jpg,.png" required style="display:none;">
+      <label for="ktpUpload" class="upload-btn">🆔 Pilih Foto KTP</label>
+      <span id="ktpFileName" style="font-size:14px; display:block; margin-top:8px;"></span>
+
+      <label>Motivasi Melamar</label>
+      <textarea required></textarea>
+
+      <button type="submit">Kirim Lamaran</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 PT Mulia Industrindo Tbk.
+  </footer>
+
+  <!-- Popup Notifikasi -->
+  <div id="popupSuccess" class="popup">
+    <div class="popup-content">
+      <h2>✅ Lamaran Berhasil Dikirim</h2>
+      <p>Terima kasih telah melamar di PT Mulia Industrindo Tbk.<br> Tim HRD Kami akan menghubungi anda jika anda lulus kualifikasi Perusahaan dan kami akan memproses data Anda.</p>
+      <button onclick="tutupPopup()">Tutup</button>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('applyForm');
+    const cvUpload = document.getElementById('cvUpload');
+    const ktpUpload = document.getElementById('ktpUpload');
+    const ijazahUpload = document.getElementById('ijazahUpload');
+    const eduLevel = document.getElementById('eduLevel');
+    const eduDetail = document.getElementById('eduDetail');
+
+    // Nama file
+    cvUpload.addEventListener('change', () => {
+      document.getElementById('cvFileName').textContent = cvUpload.files[0]?.name || '';
+    });
+    ktpUpload.addEventListener('change', () => {
+      document.getElementById('ktpFileName').textContent = ktpUpload.files[0]?.name || '';
+    });
+    ijazahUpload.addEventListener('change', () => {
+      document.getElementById('ijazahFileName').textContent = ijazahUpload.files[0]?.name || '';
+    });
+
+    // Pendidikan tambahan
+    eduLevel.addEventListener('change', function () {
+      if (this.value) {
+        eduDetail.classList.remove('hidden');
+        ijazahUpload.required = true;
+      } else {
+        eduDetail.classList.add('hidden');
+        ijazahUpload.required = false;
+      }
+    });
+
+    // Submit form
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      form.reset();
+      document.getElementById('cvFileName').textContent = '';
+      document.getElementById('ktpFileName').textContent = '';
+      document.getElementById('ijazahFileName').textContent = '';
+      eduDetail.classList.add('hidden');
+      document.getElementById('popupSuccess').style.display = 'flex';
+    });
+
+    function tutupPopup() {
+      document.getElementById('popupSuccess').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
